@@ -56,11 +56,11 @@
      <elementSeq exposures="10" val="2" id="1"/>
     </column>
     <column type="0" name="Background" display="false" displayOrder="2" width="100" anonymous="true" id="2">
-     <elementSeq exposures="1,3-56" val="1" id="2"/>
+     <elementSeq exposures="1-2,3-56" val="1" id="2"/>
      <elementSeq exposures="57" val="2" id="2"/>
     </column>
     <column type="0" name="Reference" displayOrder="3" width="100" anonymous="true" id="3">
-     <elementSeq exposures="1,3-56" val="1" id="3"/>
+     <elementSeq exposures="1-2,3-56" val="1" id="3"/>
      <elementSeq exposures="57" val="2" id="3"/>
     </column>
    </columns>
