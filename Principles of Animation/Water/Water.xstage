@@ -17,6 +17,9 @@
     <dwg name="12"/>
     <dwg name="13"/>
     <dwg name="14"/>
+    <dwg name="15"/>
+    <dwg name="16"/>
+    <dwg name="17"/>
    </drawings>
   </element>
   <element id="2" elementName="Background" elementFolder="Background" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -45,7 +48,7 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="09c7400036100acf" nbframes="65">
+  <scene name="Top" id="09c7400036100acf" nbframes="36">
    <columns>
     <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
      <elementSeq exposures="5" val="1" id="1"/>
@@ -56,19 +59,20 @@
      <elementSeq exposures="10" val="7" id="1"/>
      <elementSeq exposures="11" val="3" id="1"/>
      <elementSeq exposures="12" val="5" id="1"/>
-     <elementSeq exposures="13" val="4" id="1"/>
-     <elementSeq exposures="14" val="2" id="1"/>
-     <elementSeq exposures="15" val="12" id="1"/>
-     <elementSeq exposures="16" val="13" id="1"/>
-     <elementSeq exposures="17" val="14" id="1"/>
+     <elementSeq exposures="13,14" val="4" id="1"/>
+     <elementSeq exposures="15,16" val="2" id="1"/>
+     <elementSeq exposures="17" val="12" id="1"/>
+     <elementSeq exposures="18" val="13" id="1"/>
+     <elementSeq exposures="19" val="14" id="1"/>
+     <elementSeq exposures="20" val="15" id="1"/>
+     <elementSeq exposures="21" val="16" id="1"/>
+     <elementSeq exposures="22" val="17" id="1"/>
     </column>
-    <column type="0" name="Background" displayOrder="2" width="100" anonymous="true" id="2">
-     <elementSeq exposures="5-6,7-60" val="1" id="2"/>
-     <elementSeq exposures="61" val="2" id="2"/>
+    <column type="0" name="Background" display="false" displayOrder="2" width="100" anonymous="true" id="2">
+     <elementSeq exposures="5-6,7-35" val="1" id="2"/>
     </column>
-    <column type="0" name="Reference" displayOrder="3" width="100" anonymous="true" id="3">
-     <elementSeq exposures="1,2,3,4,5-6,7-60" val="1" id="3"/>
-     <elementSeq exposures="61" val="2" id="3"/>
+    <column type="0" name="Reference" display="false" displayOrder="3" width="100" anonymous="true" id="3">
+     <elementSeq exposures="1,2,3,4,5-6,7-35" val="1" id="3"/>
     </column>
    </columns>
    <options>
@@ -342,6 +346,7 @@
      </module>
      <module type="READ" name="Reference" pos="0,0,0" publishUnderTab="Reference">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
