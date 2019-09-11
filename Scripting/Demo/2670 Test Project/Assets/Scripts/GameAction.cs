@@ -4,12 +4,12 @@ using UnityEngine.Events;
 
 [CreateAssetMenu]
 
-public class GameActionScript : ScriptableObject
+public class GameAction : ScriptableObject
 {
    public UnityAction action;
 
    public void raise()
    {
-       action.Invoke();
+       action?.Invoke();
    }
 }
