@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [CreateAssetMenu]
 
@@ -29,19 +27,15 @@ public class FloatData : ScriptableObject
 
     public void UpdateValueLimitZeroAndMax(float amount)
     {
-        if (value >= 0 && value <= maxValue)
+        if (value < maxValue)
         {
-            
-            if (value < maxValue)
-            {
-                value = maxValue;  
-            }
-            else
-            {
-                UpdateValue(value);
-            }
-            UpdateValueLimitZero(amount);
+            UpdateValue(amount);
         }
+        else
+        {
+            value = maxValue;
+        }
+        UpdateValueLimitZero(amount);
     }
     
 }

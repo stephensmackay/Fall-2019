@@ -1,5 +1,4 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 
 
@@ -11,6 +10,6 @@ public class GameActionScript : ScriptableObject
 
    public void raise()
    {
-       action?.Invoke();
+       action.Invoke();
    }
 }
