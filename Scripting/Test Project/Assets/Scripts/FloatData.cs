@@ -8,6 +8,11 @@ public class FloatData : ScriptableObject
 
     public float maxValue = 1f;
 
+    public void CHangeValue (float amount)
+    {
+        value = amount;
+    }
+
     public void UpdateValue(float amount)
     {
         value += amount;

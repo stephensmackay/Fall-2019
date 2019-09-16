@@ -774,11 +774,11 @@ PrefabInstance:
     - target: {fileID: 1053095467, guid: 3237093977c2ea34b9436e124dbbdd67, type: 3}
       propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 11400000, guid: fee30b49a301b04468f4882773399b43,
+      objectReference: {fileID: 11400000, guid: f8c62622c436a60429d7856db7ca8ab4,
         type: 2}
     - target: {fileID: 1053095467, guid: 3237093977c2ea34b9436e124dbbdd67, type: 3}
       propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: UpdateValue
+      value: UpdateValueLimitZeroAndMax
       objectReference: {fileID: 0}
     - target: {fileID: 1053095467, guid: 3237093977c2ea34b9436e124dbbdd67, type: 3}
       propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -799,7 +799,7 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 1053095467, guid: 3237093977c2ea34b9436e124dbbdd67, type: 3}
       propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: 
+      value: raise
       objectReference: {fileID: 0}
     - target: {fileID: 1053095467, guid: 3237093977c2ea34b9436e124dbbdd67, type: 3}
       propertyPath: TriggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
