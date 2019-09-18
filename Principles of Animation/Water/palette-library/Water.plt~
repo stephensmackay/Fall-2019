@@ -14,3 +14,9 @@ Gradient "New 1"                    0x09cafeba9277c498 Linear
 Gradient "New 2"                    0x09cafeba9277f4d3 Linear 
 {        0.0 221 231 214 255,
        100.0 221 233 247 255 }
+Solid    Water1B                    0x09cc379213e18cd4  24 128 162 255
+Solid    Water1F                    0x09cc379213e0f207   0 151 200 255
+Solid    Water2B                    0x09cc379213e1bf8e 119 224 236 255
+Solid    Water2F                    0x09cc379213e1b589  24 201 229 255
+Solid    WaterT1                    0x09cc379213e294b3  38 178 223 255
+Solid    WaterT2                    0x09cc379213e509b5  38 223 240 255
