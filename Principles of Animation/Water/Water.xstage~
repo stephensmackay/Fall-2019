@@ -162,7 +162,7 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="09c7400036100acf" nbframes="59">
+  <scene name="Top" id="09c7400036100acf" nbframes="58">
    <columns>
     <column type="0" name="Drawing" displayOrder="2" width="100" anonymous="true" id="1">
      <elementSeq exposures="5" val="1" id="1"/>

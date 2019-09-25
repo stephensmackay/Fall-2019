@@ -193,7 +193,7 @@
     <column type="0" name="Reference" displayOrder="5" width="100" anonymous="true" id="3">
      <elementSeq exposures="1,2,3,4,5-6,7-35" val="1" id="3"/>
     </column>
-    <column type="0" name="Ripple" display="false" displayOrder="4" width="100" anonymous="true" id="6">
+    <column type="0" name="Ripple" displayOrder="4" width="100" anonymous="true" id="6">
      <elementSeq exposures="5" val="1" id="6"/>
      <elementSeq exposures="6" val="2" id="6"/>
      <elementSeq exposures="7" val="3" id="6"/>

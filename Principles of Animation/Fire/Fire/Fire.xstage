@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project source="Harmony Premium (HarmonyPremium.exe) version 17.0.0 build 14765 2019-06-07 14:20:17" version="1700" build="14765" creator="harmony">
+<project source="Harmony Advanced (HarmonyAdvanced.exe) version 14.0.1 build 12463 2017-04-10 10:58:55" version="1401" build="12463" creator="harmony">
  <elements>
   <element id="1" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
@@ -37,7 +37,6 @@
   <framerate val="24"/>
   <zdragging val="true"/>
   <zOrderCompatibilityWith7_3 val="false"/>
-  <pixelPerModelUnitForVectorLayers val="0.34133333333333343"/>
   <pixelPerModelUnitForBitmapLayers val="0.34133333333333343"/>
   <canvasForBitmapLayers size="3840,2560"/>
   <cameraInSymbols val="true"/>
@@ -45,7 +44,7 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="09ce4629fbf01067" nbframes="60" startFrame="1" stopFrame="60">
+  <scene name="Top" id="09ce4629fbf01067" nbframes="30">
    <columns>
     <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
      <elementSeq exposures="1" val="1" id="1"/>
@@ -81,8 +80,8 @@
     <nodeslist>
      <module type="COMPOSITE" name="Composite" pos="0,0,1" publishUnderTab="Composite">
       <options>
-       <collapsed val="false"/>
        <version val="1"/>
+       <collapsed val="false"/>
       </options>
       <attrs>
        <compositeMode val="compositeBitmap"/>
@@ -100,20 +99,19 @@
      </module>
      <module type="DISPLAY" name="Display" pos="50,50,2" publishUnderTab="Display">
       <options>
-       <collapsed val="false"/>
        <version val="1"/>
+       <collapsed val="false"/>
       </options>
      </module>
      <module type="WRITE" name="Write" pos="-50,50,3" publishUnderTab="Write">
       <options>
-       <collapsed val="false"/>
        <version val="1"/>
+       <collapsed val="false"/>
       </options>
       <attrs>
        <exportToMovie val="false"/>
        <drawingName val="frames/final-"/>
        <moviePath val="frames/output"/>
-       <movieFormat val="com.toonboom.quicktime.legacy"/>
        <movieAudio/>
        <movieVideo/>
        <movieVideoaudio/>
@@ -133,8 +131,8 @@
      </module>
      <module type="READ" name="Drawing" pos="-65,-50,4" publishUnderTab="Drawing">
       <options>
-       <collapsed val="false"/>
        <version val="1"/>
+       <collapsed val="false"/>
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -208,13 +206,8 @@
        <lineArtDrawingMode val="VectorDrawingMode"/>
        <colorArtDrawingMode val="VectorDrawingMode"/>
        <underlayArtDrawingMode val="VectorDrawingMode"/>
-       <pencilLineDeformationPreserveThickness val="false"/>
-       <pencilLineDeformationQuality val="Low"/>
-       <pencilLineDeformationSmooth val="1"/>
-       <pencilLineDeformationFitError val="3" defaultValue="3"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
-       <colorTransformation val="Linear"/>
        <applyMatteToColor val="N"/>
        <enableLineTexture val="true"/>
        <antialiasingQuality val="HIGH"/>
@@ -238,8 +231,6 @@
        <alignmentRule val="CENTER_FIRST_PAGE"/>
        <morphingVelo val="0" defaultValue="0"/>
        <canAnimate val="true"/>
-       <tileHorizontal val="false"/>
-       <tileVertical val="false"/>
       </attrs>
      </module>
     </nodeslist>
@@ -249,27 +240,6 @@
      <link out="Drawing" in="Composite"/>
     </linkedlist>
    </rootgroup>
-   <unconnectedComposite>
-    <module type="COMPOSITE" name="Unconnected_Composite" pos="0,0,0" publishUnderTab="Unconnected_Composite">
-     <options>
-      <collapsed val="false"/>
-      <version val="1"/>
-     </options>
-     <attrs>
-      <compositeMode val="compositeBitmap"/>
-      <flattenOutput val="true"/>
-      <flattenVector val="false"/>
-      <composite2d val="false"/>
-      <composite3d val="false"/>
-      <outputZ val="LEFTMOST"/>
-      <outputZInputPort val="1"/>
-      <applyFocus val="true"/>
-      <multiplier val="1" defaultValue="1"/>
-      <tvgPalette val="compositedPalette"/>
-      <mergeVector val="false"/>
-     </attrs>
-    </module>
-   </unconnectedComposite>
    <metas>
     <meta type="guideList" name="guideList" creator="Harmony Premium" version="1.0">
      <guideList selectedGuide="-1"/>
