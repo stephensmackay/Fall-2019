@@ -8,3 +8,6 @@ Solid    "Vectorized Line"          0x0000000000000003   0   0   0 255
 Gradient "New 0"                    0x09ce51f2c4a0b766 Linear 
 {        0.0 249 140  72 255,
        100.0 246 248  91 255 }
+Gradient "New 0"                    0x09cf85d552aea4d2 Radial 
+{        1.8  85  98 106 255,
+       100.0   0   0   0 255 }
