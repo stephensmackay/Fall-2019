@@ -292,7 +292,7 @@ GameObject:
   - component: {fileID: 30743285}
   - component: {fileID: 30743284}
   m_Layer: 0
-  m_Name: Particle System (7)
+  m_Name: Fog4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6131,7 +6131,7 @@ GameObject:
   - component: {fileID: 411752687}
   - component: {fileID: 411752686}
   m_Layer: 0
-  m_Name: Particle System (4)
+  m_Name: Fog1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13780,7 +13780,7 @@ GameObject:
   - component: {fileID: 988396349}
   - component: {fileID: 988396348}
   m_Layer: 0
-  m_Name: Particle System (1)
+  m_Name: Waterfall 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18621,7 +18621,7 @@ GameObject:
   - component: {fileID: 1009762181}
   - component: {fileID: 1009762180}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: Waterfall 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23638,7 +23638,7 @@ GameObject:
   - component: {fileID: 1148032738}
   - component: {fileID: 1148032737}
   m_Layer: 0
-  m_Name: Particle System (3)
+  m_Name: Waterfall 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29851,7 +29851,7 @@ GameObject:
   - component: {fileID: 1542139046}
   - component: {fileID: 1542139045}
   m_Layer: 0
-  m_Name: Particle System (2)
+  m_Name: Waterfall 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35119,7 +35119,7 @@ GameObject:
   - component: {fileID: 1683427443}
   - component: {fileID: 1683427442}
   m_Layer: 0
-  m_Name: Particle System (6)
+  m_Name: Fog3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40284,7 +40284,7 @@ GameObject:
   - component: {fileID: 1828413329}
   - component: {fileID: 1828413328}
   m_Layer: 0
-  m_Name: Particle System (5)
+  m_Name: Fog2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
