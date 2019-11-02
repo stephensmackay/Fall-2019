@@ -9,5 +9,6 @@ public abstract class CharacterBase : ScriptableObject
     public float speed = 10f;
     public float orientSpeed = .5f;
     public abstract void Move();
+    protected Vector3 Position;
 
 }
