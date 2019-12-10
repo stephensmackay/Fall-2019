@@ -19,13 +19,13 @@ public class CharacterStandard : CharacterBase
         Controller.Move(Location * Time.deltaTime);
 
         
-        if(Input.GetButton("Jump"))
-        {
-            Position.y = jumpSpeed;
-        }
-        else if (Controller.isGrounded)
-        {
-            Position.y = 0;
-        }
+        //if(Input.GetButton("Jump"))
+       // {
+       //     Position.y = jumpSpeed;
+       // }
+       // else if (Controller.isGrounded)
+       // {
+       //     Position.y = 0;
+       // }
     }
 }
